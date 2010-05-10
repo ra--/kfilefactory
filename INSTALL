@@ -1,0 +1,5 @@
+1) Make sure you got perl and libwww-perl installed
+
+2) run ./install.sh , verify the commands it prints and execute them
+
+3) Right click on a file or directory -> Actions -> Share file
