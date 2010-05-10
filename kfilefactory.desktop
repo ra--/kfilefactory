@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/all;
+Actions=share;
+
+[Desktop Action share]
+Icon=fileshare
+Name=Share file
+Exec=${HOME}/.kde/bin/kfilefactory.pl "%F"

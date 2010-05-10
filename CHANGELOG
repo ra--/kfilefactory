@@ -1,0 +1,17 @@
+0.1.0 (07.05.2010)
+-) added KDE4 support
+-) install script added
+
+0.0.4 (10.06.2009)
+-) added dolphin support
+
+0.0.3 (09.06.2009)
+-) finally fix all "spaces in filename"-problems (hopefully)
+-) fix display of http errors in kdialog
+
+0.0.2 (04.06.2009)
+-) fix problem with spaces in filename
+-) fix complete path inclusion in zip file
+
+0.0.1 (30.05.2009)
+-) first public release
