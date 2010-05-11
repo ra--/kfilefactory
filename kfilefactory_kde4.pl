@@ -108,7 +108,8 @@ $ua->max_redirect(1);
 # get start page from filefactory
 my $response = $ua->get('http://www.filefactory.com/');
 if ( !$response->is_success ) {
-  errorchk(1, "$response->status_line");
+  $error = $response->status_line;
+  errorchk(1, "$error");
 }
 #print $response->content;
 
@@ -196,7 +197,8 @@ $req->content(
 $response = $ua->request($req);
 system("qdbus $dbusRef /ProgressDialog close");
 if ( !$response->is_success ) {
-  errorchk(1, "$response->status_line");
+  $error = $response->status_line;
+  errorchk(1, "$error");
 }
 #print $response->content;
 
