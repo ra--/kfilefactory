@@ -1,5 +1,5 @@
 With kfilefactory files and directories can be easily shared from within the action menu of dolphin (KDE4) or konqueror (KDE3).
-kfilefactory compresses a file or directory and uploads the resulting file zipped and password protected to filefactory.com.
+kfilefactory uploads a file or directory to filefactory.com whereas compression and password protection and can also be enabled.
 
 It is licensed under the terms of the GPLv2. See the LICENSE file for details.
 
